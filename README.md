@@ -1,10 +1,8 @@
 <h1 align="center">Manga Trend</h1>
 
 <p align="center"><img src="https://github.com/ramt57/MangaTrend/blob/master/Screenshot/6.jpg" width="800" height="400"></p>
-<p align="center">Manga is the Japanese comics with a story line and style. In Japan people of all ages read it and does not target younger audiences like american comics. Here are more than 17000 titles translated into English to read online for free. Discover the world of Great Manga.
-
-Manga Trend is an Free Web-API based Application for reading manga online. Updated every day and easy to read.</p>
-<p align="center"><a target="_blank" href="https://github.com/ramt57/MangaTrend/blob/master/app/release/Manga.apk"><img src="https://github.com/ramt57/MangaTrend/blob/master/app/src/main/res/drawable/apk_downloader_logo.png" height="59" width="170"></a></p>
+<p align="center">Manga is the Japanese comics with a story line and style. In Japan people of all ages read it and does not target younger audiences like american comics. Here are more than 17000 titles translated into English to read online for free. Discover the world of Great Manga.Manga Trend is an Free Web-API based Application for reading manga online. Updated every day and easy to read.</p>
+<p align="center"><a target="_blank" href="https://github.com/ramt57/MangaTrend/blob/master/app/release/Manga.apk"><img src="https://github.com/ramt57/MangaTrend/blob/master/app/src/main/res/drawable/apk-logo.png" height="59" width="170"></a></p>
 
 ### Features
 * Read thousand of manga titles -high quality images & constantly updated.
@@ -19,7 +17,7 @@ Manga Trend is an Free Web-API based Application for reading manga online. Updat
 
 ## APK Download
 ### Manga Trend
-* [Download on GitHub](https://github.com/javiersantos/MLManager/releases)
+* [Download on GitHub](https://github.com/ramt57/MangaTrend/blob/master/app/release/Manga.apk)
 
 ## Creating your Manga Reader
 You are welcome to use the source code to create your own applications. There are several things I require from all developers for the moment.
