@@ -19,7 +19,7 @@ FEATURE
   * Unlimited reading access.
   
 
-MIT License
+##MIT License
 Copyright (c) 2018 Ram Tripathi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
