@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content"
+
+    app:cardElevation="2dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="13dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingRight="13dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/previous"
+            android:clickable="true"
+            android:background="?selectableItemBackground"
+            android:focusable="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:src="@drawable/ic_001_previous"
+                android:scaleType="centerCrop"
+                android:id="@+id/image"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="11dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:layout_toEndOf="@id/image"
+                android:layout_toRightOf="@id/image"
+                android:text="Previous"/>
+        </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:id="@+id/next"
+           android:clickable="true"
+           android:background="?selectableItemBackground"
+           android:focusable="true"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Next"
+               android:textStyle="bold"
+               android:textSize="19sp"
+               android:layout_margin="11dp"
+               android:id="@+id/textView"
+               android:layout_centerVertical="true"/>
+           <ImageView
+               android:id="@+id/imageButton"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:background="@android:color/transparent"
+               android:scaleType="centerCrop"
+               android:layout_centerVertical="true"
+               android:layout_toEndOf="@id/textView"
+               android:layout_toRightOf="@id/textView"
+               android:src="@drawable/ic_002_next" />
+       </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
